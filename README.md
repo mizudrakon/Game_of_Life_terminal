@@ -83,12 +83,12 @@ user instructions:
   row (1-512): 10   
 
 2. pattern input:   
-  0  			dead cell   
-  x,X 			no change   
-  1,2,3,4,5,6,7,8,9 	live cell (number of generation cell can survive on its own)   
-  i,I			immortal cell   
-  n,N			mark the end of row   
-  e,E			mark the end of pattern (and press ENTER) every other symbol is meaningless   
+  0     -dead cell   
+  x,X    -no change   
+  1,2,3,4,5,6,7,8,9    -live cell (number of generation cell can survive on its own)   
+  i,I    -immortal cell   
+  n,N    -mark the end of row   
+  e,E    -mark the end of pattern (and press ENTER) every other symbol is meaningless   
   
 	i.e.:   
     	0 1 n   
