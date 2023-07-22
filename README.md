@@ -9,11 +9,11 @@ GGS is a text based Conway's Game of Life alternative that allows you to do basi
 1. insert a pattern of life cells into a two dimensional field;
 2. watch it evolve in accordance with a few basic rules:   
     2. 1. For a space that is 'populated':  
-            1. Each cell with one or no neighbors dies, as if by solitude.   
-            2. Each cell with four or more neighbors dies, as if by overpopulation.   
-            3. Each cell with two or three neighbors survives.   
-	2. 2. For a space that is 'empty' or 'unpopulated'   
-            1. Each cell with three neighbors becomes populated.   
+        1. Each cell with one or no neighbors dies, as if by solitude.   
+        2. Each cell with four or more neighbors dies, as if by overpopulation.
+        3. Each cell with two or three neighbors survives.   
+	2. 2. For a space that is 'empty' or 'unpopulated'
+        1. Each cell with three neighbors becomes populated.   
 
 GGS works exactly alike for any patterns of 1s and 0s, but also allows
 insertion of cells with greater survivability (up to nine generations) and cells that are immortal, so you can see how unbalanced the whole thing becomes with such nonsense.   
