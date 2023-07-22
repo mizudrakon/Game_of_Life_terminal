@@ -83,19 +83,19 @@ user instructions:
   row (1-512): 10   
 
 2. pattern input:   
-  0  			dead cell
-  x,X 			no change
-  1,2,3,4,5,6,7,8,9 	live cell (number of generation cell can survive on its own)
-  i,I			immortal cell
-  n,N			mark the end of row
-  e,E			mark the end of pattern (and press ENTER)
-  every other symbol is meaningless
-
-	i.e.:	0 1 n
-		0 0 1 n
-		1 1 1 e 
-	to make a glider :)
-	(there have to be spaces)
+  0  			dead cell   
+  x,X 			no change   
+  1,2,3,4,5,6,7,8,9 	live cell (number of generation cell can survive on its own)   
+  i,I			immortal cell   
+  n,N			mark the end of row   
+  e,E			mark the end of pattern (and press ENTER) every other symbol is meaningless   
+  
+	i.e.:   
+    	0 1 n   
+		0 0 1 n   
+		1 1 1 e   
+	to make a glider :)   
+	(there have to be spaces)   
 
 If you want to stop the program, the best bet is to write 'e', 'E' or 'quit' as current input.
 During insertion (2.), writing 'e' will mark the end of the pattern input
