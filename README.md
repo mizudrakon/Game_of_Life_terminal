@@ -27,7 +27,7 @@ This playfield is looped, so patternes can migrate over the edges to opposite
 ends of the field. The default size of the field is 1024x1024 and I set it as
 the limit in the usr_input.py file (might change it later).   
 
-evaluating the next state:   
+#### evaluating the next state:   
 	When evaluating the next state in the next_state function, there are two
 arrays that count live cells in each row and column. The row_eval() function
 is moved to the nearest following row that need to be evaluated, ignoring all
@@ -42,7 +42,7 @@ playfield only after the next row is also evaluated.
 evaluated first, but written in only after the rest of the playfiled is
 finished.   
 
-writing to the console:   
+#### writing to the console:   
 	We are using the extra arrays that count live cells in rows and
 columns for calculating the largest gap in the playfield. The
 console_print() is designed to use this information and skip the gap.   
@@ -52,7 +52,7 @@ shutil.get_terminal_size() and use this to limit how much of the area we
 actually print. Hopefully it works on both Linux and Windows as with the
 python os module that is used to load the files and demos.   
 
-files and demos:   
+#### files and demos:   
 	You can write patterns as txt files and insert them into the
 playground by typing 'f n' where 'n' is the number of the desired file. You
 can see the numbered list of files after inputing 'f' after the 'command us!:'
@@ -61,7 +61,7 @@ prompt.
 left to run on their own. You need to create them using the commands and
 pattern input rules, and put them in the 'demo' folder (as txt files).   
 
-user instructions:
+#### user instructions:
 * write 'e' or 'E' to stop the program (mark the end of pattern input in part 3.)
 0. command us!: specify what you want to do and press Enter
   available commands:   
