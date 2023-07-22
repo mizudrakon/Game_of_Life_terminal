@@ -65,6 +65,8 @@ user instructions:
 * write 'e' or 'E' to stop the program (mark the end of pattern input in part 3.)
 0. command us!: specify what you want to do and press Enter
   available commands:   
+    | op | modifier | explanation |
+    |----|----------|---------|
 	|(nothing)||-prints the current state on the playground|
 	||integer|-returns the playground in the n-th generation from now|
 	|-l |integer|-prints every step on the way|
@@ -74,6 +76,7 @@ user instructions:
 	|d  |integer|-same as with files, demos are scripts that run in their entirety|
 	|h	|	|-prints help|
 	|e	|	|-stops the program (or ends pattern insertion)|
+
 
 1. specify first row and column of your pattern input:   
   col (1-512): 10   
