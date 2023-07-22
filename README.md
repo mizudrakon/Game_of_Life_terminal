@@ -64,25 +64,22 @@ pattern input rules, and put them in the 'demo' folder (as txt files).
 user instructions:
 * write 'e' or 'E' to stop the program (mark the end of pattern input in part 3.)
 0. command us!: specify what you want to do and press Enter
-  available commands:
-	'' (nothing)	-prints the current state on the playground
-	integer	n	-returns the playground in the n-th generation
-			 from now
-	-l number	-prints every step on the way
-	i		-insert a pattern as described below (1.,2.)
-	f		-lists the content of the 'files' folder
-	f number	-number specifies file that contains a pattern
-			 we want to insert, we'll have to specify (1.)
-	d number	-same as with files, demos are scripts that run
-			 in their entirety
-	h		-prints help
-	e		-stops the program (or ends pattern insertion)
+  available commands:   
+	|(nothing)||-prints the current state on the playground|
+	||integer|-returns the playground in the n-th generation from now|
+	|-l |integer|-prints every step on the way|
+	|i	|	|-insert a pattern as described below (1.,2.)|
+	|f	|	|-lists the content of the 'files' folder|
+	|f  |integer|-number specifies file that contains a pattern we want to insert, we'll have to specify (1.)|
+	|d  |integer|-same as with files, demos are scripts that run in their entirety|
+	|h	|	|-prints help|
+	|e	|	|-stops the program (or ends pattern insertion)|
 
-1. specify first row and column of your pattern input:
-  col (1-512): 10
-  row (1-512): 10
+1. specify first row and column of your pattern input:   
+  col (1-512): 10   
+  row (1-512): 10   
 
-2. pattern input:
+2. pattern input:   
   0  			dead cell
   x,X 			no change
   1,2,3,4,5,6,7,8,9 	live cell (number of generation cell can survive on its own)
